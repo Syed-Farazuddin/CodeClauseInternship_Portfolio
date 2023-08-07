@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Joti+One&display=swap");
+
+.nav_container {
+  display: flex;
+  padding: 1rem 6rem;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #d4d4d4;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: black;
+  z-index: 10;
+}
+
+.nav_container .logo {
+  color: #1da2b4;
+  font-size: 50px;
+  font-family: "Joti One", cursive;
+  cursor: pointer;
+}
+
+.nav_container .items {
+  display: flex;
+  justify-content: space-around;
+}
+.nav_container .items i {
+  margin-right: 6px;
+}
+.nav_container .items span {
+  color: #1da2b4;
+  margin: auto 35px;
+  font-size: 25px;
+  font-family: "Joti One", cursive;
+  cursor: pointer;
+}
+.nav_container .items span:hover {
+  color: #e31836;
+  transition: 0.2s linear;
+}
+
+@media screen and (max-width: 1025px) {
+  .nav_container .logo {
+    font-size: 35px;
+  }
+  .nav_container .items span {
+    font-size: 20px;
+  }
+}

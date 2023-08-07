@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Joti+One&family=Kodchasan:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap");
+
+.about_container {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Joti One", cursive;
+  margin-top: 80px;
+  padding: 4rem;
+}
+.about_container .about_heading {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.about_container h1 {
+  color: #ec1839;
+  font-size: 40px;
+}
+.about_container .about {
+  color: white;
+  display: inline-block;
+}
+
+.about_container .aboutItems {
+  max-width: 100%;
+  border-bottom: 1px solid #1da2b4;
+  margin-bottom: 16px;
+  margin-left: 40px;
+  padding: 20px 0px 5px 0px;
+}
+
+.about_container .about_Container2 {
+  display: flex;
+}
+
+.about_container .about_Container2 .left,
+.about_container .about_Container2 .right {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+.about_container .about_Container2 .left {
+  color: white;
+  font-size: 18px;
+  margin-right: 30px;
+  padding: 20px;
+  font-family: "Kodchasan", sans-serif;
+  line-height: 2;
+}
+.about_container .about_Container2 .right {
+  font-family: "Kodchasan", sans-serif;
+  flex: 0 0 100%;
+}

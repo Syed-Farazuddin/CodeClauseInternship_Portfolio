@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Joti+One&display=swap");
+
+.bannerContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 80px;
+}
+.bannerContainer .right {
+  font-family: "Joti One", cursive;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+}
+.bannerContainer .right span {
+  font-size: 50px;
+  color: #1da2b4;
+}
+.bannerContainer .right h1 {
+  color: #1da2b4;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  font-size: 75px;
+}
+.bannerContainer .right h1:hover {
+  color: #e31438;
+}
+.bannerContainer .right p {
+  font-size: 25px;
+  color: #fff;
+}
+
+.bannerContainer .left img {
+  width: 450px;
+  height: 600px;
+}
+@media screen and (max-width: 1025px) {
+  .bannerContainer {
+    margin-top: 100px;
+  }
+  .bannerContainer .right {
+    margin-right: 25px;
+  }
+  .bannerContainer .left img {
+    width: 370px;
+    height: 425px;
+  }
+  .bannerContainer .right p {
+    font-size: 20px;
+  }
+  .bannerContainer .right h1 {
+    font-size: 45px;
+  }
+  .bannerContainer .right span {
+    font-size: 35px;
+  }
+}

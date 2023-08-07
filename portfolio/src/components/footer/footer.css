@@ -1,0 +1,32 @@
+.footerContainer {
+  background: hsl(0, 0%, 13%);
+  /* position: fixed; */
+  margin-top: 60px;
+  padding: 2rem 6rem;
+  font-family: "Joti One", cursive;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.footerContainer .heading {
+  color: #e31438;
+}
+.footerContainer .contactItems {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.footerContainer .contactItems .items {
+  flex: 0 0 40%;
+  margin: 30px;
+  cursor: pointer;
+}
+.footerContainer .contactItems .items i {
+  margin-right: 6px;
+}
+.footerContainer .contactItems .items:hover {
+  color: #1da2b4;
+}

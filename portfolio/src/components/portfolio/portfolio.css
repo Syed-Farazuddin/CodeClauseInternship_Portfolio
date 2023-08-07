@@ -1,0 +1,29 @@
+.portfolio_container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 6rem;
+  justify-content: center;
+}
+.portfolio_container .heading {
+  font-family: "Joti One", cursive;
+  color: #ec1839;
+}
+.portfolio_container .imageContainer {
+  flex: 0 0 30%;
+  max-width: 100%;
+}
+.portfolio_container .imageContainer img {
+  flex: 0 0 30%;
+  max-width: 30%;
+  margin: 17px;
+}
+.portfolio_container .imageContainer img:hover {
+  transform: scale(1.05);
+  transition: 0.4s linear;
+  cursor: pointer;
+}
+@media screen and (max-width: 1025px) {
+  .portfolio_container .imageContainer img {
+    max-width: 25%;
+  }
+}
